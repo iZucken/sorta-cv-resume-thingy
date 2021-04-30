@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP developer</title>
+    <style>
+        html {
+            padding: 0 1em;
+        }
+        body {
+            width: 50%;
+            margin: auto;
+        }
+        @media(max-width: 800px) {
+            body {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1>PHP developer</h1>
+<p>for Vinteo</p>
+<p>Lev Tarasov at Russia, Krasnodar</p>
+<ul>
+    <li>
+        <a href="mailto:izucken@gmail.com">izucken@gmail.com</a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/in/izucken">linkedin</a>
+    </li>
+    <li>
+        <a href="https://github.com/iZucken">my git trash dump</a>
+    </li>
+    <li>
+        <a href="https://www.hackerrank.com/izucken">algo practice..</a>
+    </li>
+</ul>
+<h2>TL;DR</h2>
+<ul>
+    <li>~4 years of experience with backend related technologies.</li>
+    <li>Using best practices and always on the look for the better ones.</li>
+    <li>Have quite <i>noticable</i> amount of expirience with frontend.</li>
+    <li>Primary catalyst for my professional development is somewhat of a dream of acquiring a meaningful job...</li>
+</ul>
+<h2>More on relevant skills</h2>
+<ul>
+    <li>Know "vanilla" PHP from version 5 to 8 pretty well overall.</li>
+    <li>Tbh do not have a lot of expirience with async or multithreaded execution environments.</li>
+    <li>Have worked with conventional frameworks like yii, laravel and symfony. Prefer the latter.</li>
+    <li>Had experience building web projects without frameworks <i>per se</i>.</li>
+    <li>Can build generic software (i.e. cli utilities, daemons) and libs.</li>
+    <li>Have worked with messaging/queues (RMQ, redis, gearman...), daemonised workers.</li>
+    <li>Ok with legacy as long as everybody understands the implications. Had to uncrangle quite a lot of smelly stuff...</li>
+    <li>Ok with unit and functional testing, code coverage and static analysis. Haven't tried BDD or mutation testing yet.</li>
+    <li>Have experience with "traditional" as well as with modern frontend technologies (<a href="/sorta-cv-resume-thingy/resumes/frontend">related resume</a>).</li>
+    <li>Shell, composer, git, little bit of gitlab ci, docker, linters, etc.</li>
+</ul>
+<h2>Relevant employment</h2>
+<ul>
+    <li>
+        <h3>Freelancing</h3>
+        <p>2017 - present</p>
+        <p>
+            I started out as a freelancer and still do work as one sometimes.
+            Never actively sought jobs - they somehow landed on me instead.
+            Jobs range from one-off scenarios to complete web projects.
+        </p>
+    </li>
+    <li>
+        <h3>Fullstack (nominally PHP) developer at ITCOM Krasnodar</h3>
+        <p>october 2019 - october 2020</p>
+        <p>
+            I wanted to try working as a programmer fulltime within a team.
+            Landed on this job as a maintainer of CRM systems and developer of new services.
+            In the process developed some prototypes and subsystems for the everchaning business needs.
+        </p>
+    </li>
+    <li>
+        <h3>Communications Engineer</h3>
+        <p>february 2015 - february 2018</p>
+        <p>
+            Considering company's focus on hardware (and networking), I think this is kind of relevant.
+            There I had to maintain and expand digital, analog and security networking.
+            Maintained security appliances and surveillance, occasionally working with service providers and neighboring facilities.
+            By no stretch of the margin am I a networking guru, but the experience is nontheless valuable.
+        </p>
+    </li>
+</ul>
+<h2>Some relevant projects</h2>
+<ul>
+    <li>
+        <p>
+            <a href="https://prolongation.itcomgk.ru/step/owner-confirm">
+                PKCS certificate issuing form at prolongation.itcomgk.ru
+            </a>
+        </p>
+        <p>
+            The project combines internal CRMs and crypto apis into a pcks issuing business process.
+            Also had to implement a somewhat complicated frontend with interop layers using vanilla js and a bunch of third party providers.
+        </p>
+    </li>
+    <li>
+        <p>
+            <a>
+                Certificate issuing helper on webrtc (used publicly but not shareable) at uc-itcom.ru
+            </a>
+        </p>
+        <p>
+            Due to a recent COVID lockdown, a service had to be implemented that would enable remote verification.
+            My job was to setup the php interop backend layer for the CRM and video calls, as well as develop a specific video processing features.
+            Execution required delving into a few of streaming and video processing specifics.
+            Primary streaming concerns were handled by a Janus webrtc server.
+        </p>
+    </li>
+    <li>
+        <p>
+            <a>
+                Parsing platform (internal) at uc-itcom.ru
+            </a>
+        </p>
+        <p>
+            I had to create a scalable, generic solution to support parsing multiple types of resources into multiple types of datums, to be later enriched with modules to support more types.
+            Basically a bunch of workers and a task manager with a generic contract for additional modules.
+            Crud and export functionality based on easyadmin for business access.
+        </p>
+    </li>
+    <li>
+        <p>
+            <a>
+                "CRM category" (internal) at uc-itcom.ru
+            </a>
+        </p>
+        <p>
+            I would like to just denote the overall experience with multiple CRM systems and integrations between them and third party systems and software.
+            In due process a lot of work was put into refactoring legacy systems to support new requirements.
+            For the purposes of integrations some new concepts were introduced into organisation's development practices, e.g. messaging...
+        </p>
+    </li>
+    <li>
+        <p>
+            <a href="https://wallspic.com">
+                Gallery at wallspic.com
+            </a>
+        </p>
+        <p>
+            One of my oldest projects, its development started with "techniques" straight from 2000 by another contractor.
+            During continuous improvement it migrated to a more modern standards.
+            Backend features multiple integrations with image processing related services.
+            For admin purposes a few specialised UI's and workflows were implemented.
+        </p>
+    </li>
+    <li>
+        <p>
+            <a>
+                "Project migrations" at random
+            </a>
+        </p>
+        <p>
+            This is a special category of quite commonly occuring one-off jobs.
+            In the context I usually have to analyse the data structure in the source (unsupportable legacy system) with little to no info available, develop an export scenario or a process, and then map that as accurately as possible to a target system, considering the differences.
+        </p>
+    </li>
+    <li>
+        <p>
+            <a href="https://aviaks.com">
+                Web portal at aviaks.com
+            </a>
+            |
+            <a href="https://old.aviaks.com">
+                Legacy at old.aviaks.com
+            </a>
+        </p>
+        <p>
+            I had an opportunity to implement fixes and features for the legacy Vue/Laravel project made initially by another contractor.
+            Due to some an array of circumstances the owner decided to create a new separate frontend layer for it.
+            Now it is an in-development next.js project I seldom audit... I am also providing assistance in filtering of contractors.
+            To migrate initial hybrid php/js structure to SPA a developed a <a href="https://api.aviaks.com/api/public/docs">rest api</a> for it (public while in dev.).
+        </p>
+    </li>
+    <li>
+        <p>
+            <a href="https://redapic.com">
+                Image processing at redapic.com
+            </a>
+        </p>
+        <p>
+            Inherited the project from a contractor gone missing.
+            This had put my debugging and uncrangling skills to the test.
+            I had to fix issues preventing this project from providing at least a bare minimum of supposed functionality.
+            Currently I develop a new backend and a next.js frontend with specialised UI as a replacement, current implementation will go down.
+        </p>
+    </li>
+</ul>
+</body>
+</html>
